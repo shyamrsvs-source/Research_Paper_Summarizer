@@ -1,0 +1,27 @@
+# Python environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# Model weights & Hugging Face cache
+models_cache/
+.cache/
+hf_cache/
+
+# Streamlit
+.streamlit/
+
+# Temporary and user files
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+temp/
+*.log
+
+# IDE files
+.vscode/
+.idea/
